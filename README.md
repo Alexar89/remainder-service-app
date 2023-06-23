@@ -12,10 +12,10 @@ Calculamos K1 como K = N – N % X + Y
 Calculamos K2 como K = N – N%X + Y – X.
 Si K1 esta dentro del rango [0, N], retorna K1.
 En otro caso, si K2 Esta en el rango de [0, N], retorna K2.
-
-**Los casos de entrada son:
-
 <table>
+<td>
+**Los casos de entrada son:
+</td>
 <td>
 7 5 12345,
 5 0 4,
