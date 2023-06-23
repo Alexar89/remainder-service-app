@@ -28,7 +28,7 @@ El proyecto deberia verse asi:
   ![imagen](https://github.com/Alexar89/remainder-service-app/assets/11586423/ac4d0ed4-834a-4764-9171-d7c703eecaaf)
 
 - Eclipse ejecutará la aplicación de Spring Boot y mostrará los registros en la consola.
-- 
+  
   ![imagen](https://github.com/Alexar89/remainder-service-app/assets/11586423/e756aeaf-6cce-4a01-9099-fe0089479b0c)
 
 - Una vez que la aplicación se haya iniciado correctamente, estará lista para recibir peticiones.
@@ -62,7 +62,7 @@ Ahora Copia el token en el header Authorization como se muestra en esta imagen:
 ![imagen](https://github.com/Alexar89/remainder-service-app/assets/11586423/a769e46e-8121-4191-ac7c-9e7b4912bf5f)
 
 
-Luego haz las peticions al GET Remainder y POST Remainder usando los parametros encesarios, aqui un ejemplo del GET y POST:
+Luego haz las peticions al GET Remainder y POST Remainder, aqui un ejemplo del GET y POST:
 
 **Ejemplo GET:
 
