@@ -1,0 +1,278 @@
+2023-06-23 00:07:31.849  INFO 5452 --- [main] c.r.service.RemainderControllerTest      : Starting RemainderControllerTest using Java 11.0.7 on LAPTOP-A4128DS9 with PID 5452 (started by alexa in C:\RepoGit\codeChallenges\inclusionCloud\remainder-service-app)
+2023-06-23 00:07:31.879  INFO 5452 --- [main] c.r.service.RemainderControllerTest      : No active profile set, falling back to 1 default profile: "default"
+2023-06-23 00:07:31.922 DEBUG 5452 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@32c0915e
+2023-06-23 00:07:32.532  INFO 5452 --- [main] com.remainder.service.filters.JwtFilter  : Session duration: 3600000 millis
+2023-06-23 00:07:32.536  INFO 5452 --- [main] com.remainder.service.filters.JwtFilter  : Expiration time: 720000 millis
+2023-06-23 00:07:32.537  INFO 5452 --- [main] com.remainder.service.filters.JwtFilter  : Session duration : 3600000 millis
+2023-06-23 00:07:32.537  INFO 5452 --- [main] com.remainder.service.filters.JwtFilter  : Session : 720000 expiration_time
+2023-06-23 00:07:32.894 DEBUG 5452 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-06-23 00:07:33.006 DEBUG 5452 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 5 mappings in 'requestMappingHandlerMapping'
+2023-06-23 00:07:33.055 DEBUG 5452 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-06-23 00:07:33.069 DEBUG 5452 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-06-23 00:07:33.248  INFO 5452 --- [main] c.r.service.RemainderControllerTest      : Started RemainderControllerTest in 1.728 seconds (JVM running for 2.594)
+2023-06-23 00:07:33.806 DEBUG 5452 --- [SpringApplicationShutdownHook] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@32c0915e, started on Fri Jun 23 00:07:31 GMT-05:00 2023
+2023-06-23 00:08:23.439  INFO 10256 --- [main] c.r.service.RemainderControllerTest      : Starting RemainderControllerTest using Java 11.0.7 on LAPTOP-A4128DS9 with PID 10256 (started by alexa in C:\RepoGit\codeChallenges\inclusionCloud\remainder-service-app)
+2023-06-23 00:08:23.441  INFO 10256 --- [main] c.r.service.RemainderControllerTest      : No active profile set, falling back to 1 default profile: "default"
+2023-06-23 00:08:23.475 DEBUG 10256 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@3ef41c66
+2023-06-23 00:08:24.475  INFO 10256 --- [main] com.remainder.service.filters.JwtFilter  : Session duration: 3600000 millis
+2023-06-23 00:08:24.475  INFO 10256 --- [main] com.remainder.service.filters.JwtFilter  : Expiration time: 720000 millis
+2023-06-23 00:08:24.475  INFO 10256 --- [main] com.remainder.service.filters.JwtFilter  : Session duration : 3600000 millis
+2023-06-23 00:08:24.475  INFO 10256 --- [main] com.remainder.service.filters.JwtFilter  : Session : 720000 expiration_time
+2023-06-23 00:08:24.791 DEBUG 10256 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-06-23 00:08:24.923 DEBUG 10256 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 5 mappings in 'requestMappingHandlerMapping'
+2023-06-23 00:08:24.970 DEBUG 10256 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-06-23 00:08:24.987 DEBUG 10256 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-06-23 00:08:25.179  INFO 10256 --- [main] c.r.service.RemainderControllerTest      : Started RemainderControllerTest in 2.069 seconds (JVM running for 2.935)
+2023-06-23 00:08:25.364 DEBUG 10256 --- [SpringApplicationShutdownHook] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@3ef41c66, started on Fri Jun 23 00:08:23 GMT-05:00 2023
+2023-06-23 00:10:28.554  INFO 10416 --- [main] c.r.service.RemainderControllerTest      : Starting RemainderControllerTest using Java 11.0.7 on LAPTOP-A4128DS9 with PID 10416 (started by alexa in C:\RepoGit\codeChallenges\inclusionCloud\remainder-service-app)
+2023-06-23 00:10:28.555  INFO 10416 --- [main] c.r.service.RemainderControllerTest      : No active profile set, falling back to 1 default profile: "default"
+2023-06-23 00:10:28.592 DEBUG 10416 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@3ef41c66
+2023-06-23 00:10:29.570  INFO 10416 --- [main] com.remainder.service.filters.JwtFilter  : Session duration: 3600000 millis
+2023-06-23 00:10:29.570  INFO 10416 --- [main] com.remainder.service.filters.JwtFilter  : Expiration time: 720000 millis
+2023-06-23 00:10:29.570  INFO 10416 --- [main] com.remainder.service.filters.JwtFilter  : Session duration : 3600000 millis
+2023-06-23 00:10:29.570  INFO 10416 --- [main] com.remainder.service.filters.JwtFilter  : Session : 720000 expiration_time
+2023-06-23 00:10:29.877 DEBUG 10416 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-06-23 00:10:30.009 DEBUG 10416 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 5 mappings in 'requestMappingHandlerMapping'
+2023-06-23 00:10:30.058 DEBUG 10416 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-06-23 00:10:30.076 DEBUG 10416 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-06-23 00:10:30.267  INFO 10416 --- [main] c.r.service.RemainderControllerTest      : Started RemainderControllerTest in 2.035 seconds (JVM running for 2.963)
+2023-06-23 00:10:30.426 DEBUG 10416 --- [SpringApplicationShutdownHook] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@3ef41c66, started on Fri Jun 23 00:10:28 GMT-05:00 2023
+2023-06-23 00:11:52.462  INFO 1656 --- [main] c.r.service.RemainderControllerTest      : Starting RemainderControllerTest using Java 11.0.7 on LAPTOP-A4128DS9 with PID 1656 (started by alexa in C:\RepoGit\codeChallenges\inclusionCloud\remainder-service-app)
+2023-06-23 00:11:52.463  INFO 1656 --- [main] c.r.service.RemainderControllerTest      : No active profile set, falling back to 1 default profile: "default"
+2023-06-23 00:11:52.494 DEBUG 1656 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@622ef26a
+2023-06-23 00:11:53.466  INFO 1656 --- [main] com.remainder.service.filters.JwtFilter  : Session duration: 3600000 millis
+2023-06-23 00:11:53.466  INFO 1656 --- [main] com.remainder.service.filters.JwtFilter  : Expiration time: 720000 millis
+2023-06-23 00:11:53.466  INFO 1656 --- [main] com.remainder.service.filters.JwtFilter  : Session duration : 3600000 millis
+2023-06-23 00:11:53.466  INFO 1656 --- [main] com.remainder.service.filters.JwtFilter  : Session : 720000 expiration_time
+2023-06-23 00:11:53.774 DEBUG 1656 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-06-23 00:11:53.900 DEBUG 1656 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 5 mappings in 'requestMappingHandlerMapping'
+2023-06-23 00:11:53.948 DEBUG 1656 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-06-23 00:11:53.963 DEBUG 1656 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-06-23 00:11:54.159  INFO 1656 --- [main] c.r.service.RemainderControllerTest      : Started RemainderControllerTest in 2.023 seconds (JVM running for 2.907)
+2023-06-23 00:11:54.315 DEBUG 1656 --- [SpringApplicationShutdownHook] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@622ef26a, started on Fri Jun 23 00:11:52 GMT-05:00 2023
+2023-06-23 00:13:13.692  INFO 10524 --- [main] c.r.service.RemainderControllerTest      : Starting RemainderControllerTest using Java 11.0.7 on LAPTOP-A4128DS9 with PID 10524 (started by alexa in C:\RepoGit\codeChallenges\inclusionCloud\remainder-service-app)
+2023-06-23 00:13:13.693  INFO 10524 --- [main] c.r.service.RemainderControllerTest      : No active profile set, falling back to 1 default profile: "default"
+2023-06-23 00:13:13.726 DEBUG 10524 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@622ef26a
+2023-06-23 00:13:14.707  INFO 10524 --- [main] com.remainder.service.filters.JwtFilter  : Session duration: 3600000 millis
+2023-06-23 00:13:14.708  INFO 10524 --- [main] com.remainder.service.filters.JwtFilter  : Expiration time: 720000 millis
+2023-06-23 00:13:14.708  INFO 10524 --- [main] com.remainder.service.filters.JwtFilter  : Session duration : 3600000 millis
+2023-06-23 00:13:14.708  INFO 10524 --- [main] com.remainder.service.filters.JwtFilter  : Session : 720000 expiration_time
+2023-06-23 00:13:15.019 DEBUG 10524 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-06-23 00:13:15.148 DEBUG 10524 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 5 mappings in 'requestMappingHandlerMapping'
+2023-06-23 00:13:15.195 DEBUG 10524 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-06-23 00:13:15.212 DEBUG 10524 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-06-23 00:13:15.400  INFO 10524 --- [main] c.r.service.RemainderControllerTest      : Started RemainderControllerTest in 2.032 seconds (JVM running for 2.899)
+2023-06-23 00:13:15.531  INFO 10524 --- [main] c.r.s.controller.RemainderController     : Calcule of Remainder Success
+2023-06-23 00:13:15.554  INFO 10524 --- [main] c.r.s.controller.RemainderController     : Calcule of Remainder Success
+2023-06-23 00:13:15.571 DEBUG 10524 --- [SpringApplicationShutdownHook] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@622ef26a, started on Fri Jun 23 00:13:13 GMT-05:00 2023
+2023-06-23 00:15:43.982  INFO 11852 --- [main] c.r.service.RemainderControllerTest      : Starting RemainderControllerTest using Java 11.0.7 on LAPTOP-A4128DS9 with PID 11852 (started by alexa in C:\RepoGit\codeChallenges\inclusionCloud\remainder-service-app)
+2023-06-23 00:15:43.983  INFO 11852 --- [main] c.r.service.RemainderControllerTest      : No active profile set, falling back to 1 default profile: "default"
+2023-06-23 00:15:44.015 DEBUG 11852 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@622ef26a
+2023-06-23 00:15:44.998  INFO 11852 --- [main] com.remainder.service.filters.JwtFilter  : Session duration: 3600000 millis
+2023-06-23 00:15:44.998  INFO 11852 --- [main] com.remainder.service.filters.JwtFilter  : Expiration time: 720000 millis
+2023-06-23 00:15:44.998  INFO 11852 --- [main] com.remainder.service.filters.JwtFilter  : Session duration : 3600000 millis
+2023-06-23 00:15:44.998  INFO 11852 --- [main] com.remainder.service.filters.JwtFilter  : Session : 720000 expiration_time
+2023-06-23 00:15:45.335 DEBUG 11852 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-06-23 00:15:45.463 DEBUG 11852 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 5 mappings in 'requestMappingHandlerMapping'
+2023-06-23 00:15:45.508 DEBUG 11852 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-06-23 00:15:45.524 DEBUG 11852 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-06-23 00:15:45.719  INFO 11852 --- [main] c.r.service.RemainderControllerTest      : Started RemainderControllerTest in 2.051 seconds (JVM running for 2.93)
+2023-06-23 00:15:45.850  INFO 11852 --- [main] c.r.s.controller.RemainderController     : Calcule of Remainder Success
+2023-06-23 00:15:45.870  INFO 11852 --- [main] c.r.s.controller.RemainderController     : Calcule of Remainder Success
+2023-06-23 00:15:45.887 DEBUG 11852 --- [SpringApplicationShutdownHook] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@622ef26a, started on Fri Jun 23 00:15:44 GMT-05:00 2023
+2023-06-23 00:19:12.958  INFO 8296 --- [main] c.r.service.RemainderControllerTest      : Starting RemainderControllerTest using Java 11.0.7 on LAPTOP-A4128DS9 with PID 8296 (started by alexa in C:\RepoGit\codeChallenges\inclusionCloud\remainder-service-app)
+2023-06-23 00:19:12.959  INFO 8296 --- [main] c.r.service.RemainderControllerTest      : No active profile set, falling back to 1 default profile: "default"
+2023-06-23 00:19:12.991 DEBUG 8296 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@77b21474
+2023-06-23 00:19:13.978  INFO 8296 --- [main] com.remainder.service.filters.JwtFilter  : Session duration: 3600000 millis
+2023-06-23 00:19:13.979  INFO 8296 --- [main] com.remainder.service.filters.JwtFilter  : Expiration time: 720000 millis
+2023-06-23 00:19:13.979  INFO 8296 --- [main] com.remainder.service.filters.JwtFilter  : Session duration : 3600000 millis
+2023-06-23 00:19:13.979  INFO 8296 --- [main] com.remainder.service.filters.JwtFilter  : Session : 720000 expiration_time
+2023-06-23 00:19:14.291 DEBUG 8296 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-06-23 00:19:14.421 DEBUG 8296 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 5 mappings in 'requestMappingHandlerMapping'
+2023-06-23 00:19:14.468 DEBUG 8296 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-06-23 00:19:14.485 DEBUG 8296 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-06-23 00:19:14.674  INFO 8296 --- [main] c.r.service.RemainderControllerTest      : Started RemainderControllerTest in 2.046 seconds (JVM running for 2.931)
+2023-06-23 00:19:14.800  INFO 8296 --- [main] c.r.s.controller.RemainderController     : Calcule of Remainder Success
+2023-06-23 00:19:14.823  INFO 8296 --- [main] c.r.s.controller.RemainderController     : Calcule of Remainder Success
+2023-06-23 00:19:14.839 DEBUG 8296 --- [SpringApplicationShutdownHook] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@77b21474, started on Fri Jun 23 00:19:12 GMT-05:00 2023
+2023-06-23 00:27:21.752  INFO 17476 --- [main] c.r.service.RemainderControllerTest      : Starting RemainderControllerTest using Java 11.0.7 on LAPTOP-A4128DS9 with PID 17476 (started by alexa in C:\RepoGit\codeChallenges\inclusionCloud\remainder-service-app)
+2023-06-23 00:27:21.753  INFO 17476 --- [main] c.r.service.RemainderControllerTest      : No active profile set, falling back to 1 default profile: "default"
+2023-06-23 00:27:21.784 DEBUG 17476 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@622ef26a
+2023-06-23 00:27:22.744  INFO 17476 --- [main] com.remainder.service.filters.JwtFilter  : Session duration: 3600000 millis
+2023-06-23 00:27:22.744  INFO 17476 --- [main] com.remainder.service.filters.JwtFilter  : Expiration time: 720000 millis
+2023-06-23 00:27:22.781  INFO 17476 --- [main] com.remainder.service.filters.JwtFilter  : Session duration : 3600000 millis
+2023-06-23 00:27:22.781  INFO 17476 --- [main] com.remainder.service.filters.JwtFilter  : Session : 720000 expiration_time
+2023-06-23 00:27:23.114 DEBUG 17476 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-06-23 00:27:23.241 DEBUG 17476 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 5 mappings in 'requestMappingHandlerMapping'
+2023-06-23 00:27:23.289 DEBUG 17476 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-06-23 00:27:23.305 DEBUG 17476 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-06-23 00:27:23.492  INFO 17476 --- [main] c.r.service.RemainderControllerTest      : Started RemainderControllerTest in 2.055 seconds (JVM running for 2.941)
+2023-06-23 00:27:23.620  INFO 17476 --- [main] c.r.s.controller.RemainderController     : Calcule of Remainder Success
+2023-06-23 00:27:23.641  INFO 17476 --- [main] c.r.s.controller.RemainderController     : Calcule of Remainder Success
+2023-06-23 00:27:23.651 DEBUG 17476 --- [SpringApplicationShutdownHook] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@622ef26a, started on Fri Jun 23 00:27:21 GMT-05:00 2023
+2023-06-23 00:37:18.768  INFO 14488 --- [main] c.r.service.RemainderControllerTest      : Starting RemainderControllerTest using Java 11.0.7 on LAPTOP-A4128DS9 with PID 14488 (started by alexa in C:\RepoGit\codeChallenges\inclusionCloud\remainder-service-app)
+2023-06-23 00:37:18.769  INFO 14488 --- [main] c.r.service.RemainderControllerTest      : No active profile set, falling back to 1 default profile: "default"
+2023-06-23 00:37:18.803 DEBUG 14488 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@3a71c100
+2023-06-23 00:37:19.781  INFO 14488 --- [main] com.remainder.service.filters.JwtFilter  : Session duration: 3600000 millis
+2023-06-23 00:37:19.781  INFO 14488 --- [main] com.remainder.service.filters.JwtFilter  : Expiration time: 720000 millis
+2023-06-23 00:37:19.781  INFO 14488 --- [main] com.remainder.service.filters.JwtFilter  : Session duration : 3600000 millis
+2023-06-23 00:37:19.781  INFO 14488 --- [main] com.remainder.service.filters.JwtFilter  : Session : 720000 expiration_time
+2023-06-23 00:37:20.102 DEBUG 14488 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-06-23 00:37:20.226 DEBUG 14488 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 5 mappings in 'requestMappingHandlerMapping'
+2023-06-23 00:37:20.272 DEBUG 14488 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-06-23 00:37:20.289 DEBUG 14488 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-06-23 00:37:20.473  INFO 14488 --- [main] c.r.service.RemainderControllerTest      : Started RemainderControllerTest in 2.032 seconds (JVM running for 2.929)
+2023-06-23 00:37:20.612  INFO 14488 --- [main] c.r.s.controller.RemainderController     : Calcule of Remainder Success
+2023-06-23 00:37:20.636  INFO 14488 --- [main] c.r.s.controller.RemainderController     : Calcule of Remainder Success
+2023-06-23 00:37:20.640  INFO 14488 --- [main] c.r.s.controller.RemainderController     : Calcule of Remainder Success
+2023-06-23 00:37:20.644  INFO 14488 --- [main] c.r.s.controller.RemainderController     : Calcule of Remainder Success
+2023-06-23 00:37:20.649  INFO 14488 --- [main] c.r.s.controller.RemainderController     : Calcule of Remainder Success
+2023-06-23 00:37:20.653  INFO 14488 --- [main] c.r.s.controller.RemainderController     : Calcule of Remainder Success
+2023-06-23 00:37:20.657  INFO 14488 --- [main] c.r.s.controller.RemainderController     : Calcule of Remainder Success
+2023-06-23 00:37:20.660  INFO 14488 --- [main] c.r.s.controller.RemainderController     : Calcule of Remainder Success
+2023-06-23 00:37:20.665  INFO 14488 --- [main] c.r.s.controller.RemainderController     : Calcule of Remainder Success
+2023-06-23 00:37:20.669  INFO 14488 --- [main] c.r.s.controller.RemainderController     : Calcule of Remainder Success
+2023-06-23 00:37:20.673  INFO 14488 --- [main] c.r.s.controller.RemainderController     : Calcule of Remainder Success
+2023-06-23 00:37:20.677  INFO 14488 --- [main] c.r.s.controller.RemainderController     : Calcule of Remainder Success
+2023-06-23 00:37:20.681  INFO 14488 --- [main] c.r.s.controller.RemainderController     : Calcule of Remainder Success
+2023-06-23 00:37:20.685  INFO 14488 --- [main] c.r.s.controller.RemainderController     : Calcule of Remainder Success
+2023-06-23 00:37:20.696 DEBUG 14488 --- [SpringApplicationShutdownHook] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@3a71c100, started on Fri Jun 23 00:37:18 GMT-05:00 2023
+2023-06-23 00:42:47.547  INFO 7944 --- [main] c.r.service.RemainderControllerTest      : Starting RemainderControllerTest using Java 11.0.7 on LAPTOP-A4128DS9 with PID 7944 (started by alexa in C:\RepoGit\codeChallenges\inclusionCloud\remainder-service-app)
+2023-06-23 00:42:47.548  INFO 7944 --- [main] c.r.service.RemainderControllerTest      : No active profile set, falling back to 1 default profile: "default"
+2023-06-23 00:42:47.579 DEBUG 7944 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@5b69fd74
+2023-06-23 00:42:48.540  INFO 7944 --- [main] com.remainder.service.filters.JwtFilter  : Session duration: 3600000 millis
+2023-06-23 00:42:48.541  INFO 7944 --- [main] com.remainder.service.filters.JwtFilter  : Expiration time: 720000 millis
+2023-06-23 00:42:48.541  INFO 7944 --- [main] com.remainder.service.filters.JwtFilter  : Session duration : 3600000 millis
+2023-06-23 00:42:48.541  INFO 7944 --- [main] com.remainder.service.filters.JwtFilter  : Session : 720000 expiration_time
+2023-06-23 00:42:48.852 DEBUG 7944 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-06-23 00:42:48.978 DEBUG 7944 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 5 mappings in 'requestMappingHandlerMapping'
+2023-06-23 00:42:49.027 DEBUG 7944 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-06-23 00:42:49.043 DEBUG 7944 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-06-23 00:42:49.234  INFO 7944 --- [main] c.r.service.RemainderControllerTest      : Started RemainderControllerTest in 2.019 seconds (JVM running for 2.918)
+2023-06-23 00:42:49.368  INFO 7944 --- [main] c.r.s.controller.RemainderController     : Calcule of Remainder Success
+2023-06-23 00:42:49.391  INFO 7944 --- [main] c.r.s.controller.RemainderController     : Calcule of Remainder Success
+2023-06-23 00:42:49.395  INFO 7944 --- [main] c.r.s.controller.RemainderController     : Calcule of Remainder Success
+2023-06-23 00:42:49.400  INFO 7944 --- [main] c.r.s.controller.RemainderController     : Calcule of Remainder Success
+2023-06-23 00:42:49.404  INFO 7944 --- [main] c.r.s.controller.RemainderController     : Calcule of Remainder Success
+2023-06-23 00:42:49.408  INFO 7944 --- [main] c.r.s.controller.RemainderController     : Calcule of Remainder Success
+2023-06-23 00:42:49.412  INFO 7944 --- [main] c.r.s.controller.RemainderController     : Calcule of Remainder Success
+2023-06-23 00:42:49.416  INFO 7944 --- [main] c.r.s.controller.RemainderController     : Calcule of Remainder Success
+2023-06-23 00:42:49.420  INFO 7944 --- [main] c.r.s.controller.RemainderController     : Calcule of Remainder Success
+2023-06-23 00:42:49.424  INFO 7944 --- [main] c.r.s.controller.RemainderController     : Calcule of Remainder Success
+2023-06-23 00:42:49.428  INFO 7944 --- [main] c.r.s.controller.RemainderController     : Calcule of Remainder Success
+2023-06-23 00:42:49.441  INFO 7944 --- [main] c.r.s.controller.RemainderController     : Calcule of Remainder Success
+2023-06-23 00:42:49.445  INFO 7944 --- [main] c.r.s.controller.RemainderController     : Calcule of Remainder Success
+2023-06-23 00:42:49.449  INFO 7944 --- [main] c.r.s.controller.RemainderController     : Calcule of Remainder Success
+2023-06-23 00:42:49.462 DEBUG 7944 --- [SpringApplicationShutdownHook] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@5b69fd74, started on Fri Jun 23 00:42:47 GMT-05:00 2023
+2023-06-23 00:54:50.043  INFO 2104 --- [main] c.r.service.RemainderControllerTest      : Starting RemainderControllerTest using Java 11.0.7 on LAPTOP-A4128DS9 with PID 2104 (started by alexa in C:\RepoGit\codeChallenges\inclusionCloud\remainder-service-app)
+2023-06-23 00:54:50.044  INFO 2104 --- [main] c.r.service.RemainderControllerTest      : No active profile set, falling back to 1 default profile: "default"
+2023-06-23 00:54:50.074 DEBUG 2104 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@5b69fd74
+2023-06-23 00:54:51.036  INFO 2104 --- [main] com.remainder.service.filters.JwtFilter  : Session duration: 3600000 millis
+2023-06-23 00:54:51.037  INFO 2104 --- [main] com.remainder.service.filters.JwtFilter  : Expiration time: 720000 millis
+2023-06-23 00:54:51.037  INFO 2104 --- [main] com.remainder.service.filters.JwtFilter  : Session duration : 3600000 millis
+2023-06-23 00:54:51.037  INFO 2104 --- [main] com.remainder.service.filters.JwtFilter  : Session : 720000 expiration_time
+2023-06-23 00:54:51.343 DEBUG 2104 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-06-23 00:54:51.471 DEBUG 2104 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 5 mappings in 'requestMappingHandlerMapping'
+2023-06-23 00:54:51.518 DEBUG 2104 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-06-23 00:54:51.537 DEBUG 2104 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-06-23 00:54:51.728  INFO 2104 --- [main] c.r.service.RemainderControllerTest      : Started RemainderControllerTest in 2.014 seconds (JVM running for 2.904)
+2023-06-23 00:54:51.871  INFO 2104 --- [main] c.r.s.controller.RemainderController     : Calcule of Remainder Success
+2023-06-23 00:54:51.893  INFO 2104 --- [main] c.r.s.controller.RemainderController     : Calcule of Remainder Success
+2023-06-23 00:54:51.897  INFO 2104 --- [main] c.r.s.controller.RemainderController     : Calcule of Remainder Success
+2023-06-23 00:54:51.901  INFO 2104 --- [main] c.r.s.controller.RemainderController     : Calcule of Remainder Success
+2023-06-23 00:54:51.905  INFO 2104 --- [main] c.r.s.controller.RemainderController     : Calcule of Remainder Success
+2023-06-23 00:54:51.909  INFO 2104 --- [main] c.r.s.controller.RemainderController     : Calcule of Remainder Success
+2023-06-23 00:54:51.913  INFO 2104 --- [main] c.r.s.controller.RemainderController     : Calcule of Remainder Success
+2023-06-23 00:54:51.916  INFO 2104 --- [main] c.r.s.controller.RemainderController     : Calcule of Remainder Success
+2023-06-23 00:54:51.920  INFO 2104 --- [main] c.r.s.controller.RemainderController     : Calcule of Remainder Success
+2023-06-23 00:54:51.924  INFO 2104 --- [main] c.r.s.controller.RemainderController     : Calcule of Remainder Success
+2023-06-23 00:54:51.928  INFO 2104 --- [main] c.r.s.controller.RemainderController     : Calcule of Remainder Success
+2023-06-23 00:54:51.932  INFO 2104 --- [main] c.r.s.controller.RemainderController     : Calcule of Remainder Success
+2023-06-23 00:54:51.937  INFO 2104 --- [main] c.r.s.controller.RemainderController     : Calcule of Remainder Success
+2023-06-23 00:54:51.941  INFO 2104 --- [main] c.r.s.controller.RemainderController     : Calcule of Remainder Success
+2023-06-23 00:54:51.960 DEBUG 2104 --- [SpringApplicationShutdownHook] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@5b69fd74, started on Fri Jun 23 00:54:50 GMT-05:00 2023
+2023-06-23 00:55:05.440  INFO 3964 --- [main] c.remainder.service.LoginControllerTest  : Starting LoginControllerTest using Java 11.0.7 on LAPTOP-A4128DS9 with PID 3964 (started by alexa in C:\RepoGit\codeChallenges\inclusionCloud\remainder-service-app)
+2023-06-23 00:55:05.441  INFO 3964 --- [main] c.remainder.service.LoginControllerTest  : No active profile set, falling back to 1 default profile: "default"
+2023-06-23 00:55:05.481 DEBUG 3964 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@50b0bc4c
+2023-06-23 00:55:06.514  INFO 3964 --- [main] com.remainder.service.filters.JwtFilter  : Session duration: 3600000 millis
+2023-06-23 00:55:06.514  INFO 3964 --- [main] com.remainder.service.filters.JwtFilter  : Expiration time: 720000 millis
+2023-06-23 00:55:06.514  INFO 3964 --- [main] com.remainder.service.filters.JwtFilter  : Session duration : 3600000 millis
+2023-06-23 00:55:06.515  INFO 3964 --- [main] com.remainder.service.filters.JwtFilter  : Session : 720000 expiration_time
+2023-06-23 00:55:06.850 DEBUG 3964 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-06-23 00:55:06.989 DEBUG 3964 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 5 mappings in 'requestMappingHandlerMapping'
+2023-06-23 00:55:07.039 DEBUG 3964 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-06-23 00:55:07.054 DEBUG 3964 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-06-23 00:55:07.243  INFO 3964 --- [main] c.remainder.service.LoginControllerTest  : Started LoginControllerTest in 2.139 seconds (JVM running for 3.031)
+2023-06-23 00:55:07.309  INFO 3964 --- [main] c.r.service.controller.LoginController   : Session duration : 0 millis
+2023-06-23 00:55:07.347  INFO 3964 --- [main] c.r.service.controller.LoginController   : Session duration : 0 millis
+2023-06-23 00:55:07.366 DEBUG 3964 --- [SpringApplicationShutdownHook] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@50b0bc4c, started on Fri Jun 23 00:55:05 GMT-05:00 2023
+2023-06-23 00:55:54.536  INFO 10756 --- [main] c.remainder.service.LoginControllerTest  : Starting LoginControllerTest using Java 11.0.7 on LAPTOP-A4128DS9 with PID 10756 (started by alexa in C:\RepoGit\codeChallenges\inclusionCloud\remainder-service-app)
+2023-06-23 00:55:54.537  INFO 10756 --- [main] c.remainder.service.LoginControllerTest  : No active profile set, falling back to 1 default profile: "default"
+2023-06-23 00:55:54.569 DEBUG 10756 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@50b0bc4c
+2023-06-23 00:55:55.608  INFO 10756 --- [main] com.remainder.service.filters.JwtFilter  : Session duration: 3600000 millis
+2023-06-23 00:55:55.609  INFO 10756 --- [main] com.remainder.service.filters.JwtFilter  : Expiration time: 720000 millis
+2023-06-23 00:55:55.609  INFO 10756 --- [main] com.remainder.service.filters.JwtFilter  : Session duration : 3600000 millis
+2023-06-23 00:55:55.609  INFO 10756 --- [main] com.remainder.service.filters.JwtFilter  : Session : 720000 expiration_time
+2023-06-23 00:55:55.969 DEBUG 10756 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-06-23 00:55:56.091 DEBUG 10756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 5 mappings in 'requestMappingHandlerMapping'
+2023-06-23 00:55:56.138 DEBUG 10756 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-06-23 00:55:56.155 DEBUG 10756 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-06-23 00:55:56.343  INFO 10756 --- [main] c.remainder.service.LoginControllerTest  : Started LoginControllerTest in 2.136 seconds (JVM running for 3.014)
+2023-06-23 00:55:56.394  INFO 10756 --- [main] c.r.service.controller.LoginController   : Session duration : 0 millis
+2023-06-23 00:55:56.420  INFO 10756 --- [main] c.r.service.controller.LoginController   : Session duration : 0 millis
+2023-06-23 00:55:56.435 DEBUG 10756 --- [SpringApplicationShutdownHook] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@50b0bc4c, started on Fri Jun 23 00:55:54 GMT-05:00 2023
+2023-06-23 00:57:24.406  INFO 11340 --- [main] c.remainder.service.LoginControllerTest  : Starting LoginControllerTest using Java 11.0.7 on LAPTOP-A4128DS9 with PID 11340 (started by alexa in C:\RepoGit\codeChallenges\inclusionCloud\remainder-service-app)
+2023-06-23 00:57:24.407  INFO 11340 --- [main] c.remainder.service.LoginControllerTest  : No active profile set, falling back to 1 default profile: "default"
+2023-06-23 00:57:24.443 DEBUG 11340 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@19868320
+2023-06-23 00:57:25.498  INFO 11340 --- [main] com.remainder.service.filters.JwtFilter  : Session duration: 3600000 millis
+2023-06-23 00:57:25.498  INFO 11340 --- [main] com.remainder.service.filters.JwtFilter  : Expiration time: 720000 millis
+2023-06-23 00:57:25.498  INFO 11340 --- [main] com.remainder.service.filters.JwtFilter  : Session duration : 3600000 millis
+2023-06-23 00:57:25.498  INFO 11340 --- [main] com.remainder.service.filters.JwtFilter  : Session : 720000 expiration_time
+2023-06-23 00:57:25.802 DEBUG 11340 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-06-23 00:57:25.931 DEBUG 11340 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 5 mappings in 'requestMappingHandlerMapping'
+2023-06-23 00:57:25.977 DEBUG 11340 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-06-23 00:57:25.993 DEBUG 11340 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-06-23 00:57:26.185  INFO 11340 --- [main] c.remainder.service.LoginControllerTest  : Started LoginControllerTest in 2.104 seconds (JVM running for 2.964)
+2023-06-23 00:57:26.269 DEBUG 11340 --- [SpringApplicationShutdownHook] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@19868320, started on Fri Jun 23 00:57:24 GMT-05:00 2023
+2023-06-23 00:57:59.800  INFO 18384 --- [main] c.remainder.service.LoginControllerTest  : Starting LoginControllerTest using Java 11.0.7 on LAPTOP-A4128DS9 with PID 18384 (started by alexa in C:\RepoGit\codeChallenges\inclusionCloud\remainder-service-app)
+2023-06-23 00:57:59.802  INFO 18384 --- [main] c.remainder.service.LoginControllerTest  : No active profile set, falling back to 1 default profile: "default"
+2023-06-23 00:57:59.837 DEBUG 18384 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@50b0bc4c
+2023-06-23 00:58:00.859  INFO 18384 --- [main] com.remainder.service.filters.JwtFilter  : Session duration: 3600000 millis
+2023-06-23 00:58:00.859  INFO 18384 --- [main] com.remainder.service.filters.JwtFilter  : Expiration time: 720000 millis
+2023-06-23 00:58:00.859  INFO 18384 --- [main] com.remainder.service.filters.JwtFilter  : Session duration : 3600000 millis
+2023-06-23 00:58:00.859  INFO 18384 --- [main] com.remainder.service.filters.JwtFilter  : Session : 720000 expiration_time
+2023-06-23 00:58:01.161 DEBUG 18384 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-06-23 00:58:01.293 DEBUG 18384 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 5 mappings in 'requestMappingHandlerMapping'
+2023-06-23 00:58:01.340 DEBUG 18384 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-06-23 00:58:01.357 DEBUG 18384 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-06-23 00:58:01.555  INFO 18384 --- [main] c.remainder.service.LoginControllerTest  : Started LoginControllerTest in 2.086 seconds (JVM running for 2.954)
+2023-06-23 00:58:01.607  INFO 18384 --- [main] c.r.service.controller.LoginController   : Session duration : 0 millis
+2023-06-23 00:58:01.635  INFO 18384 --- [main] c.r.service.controller.LoginController   : Session duration : 0 millis
+2023-06-23 00:58:01.652 DEBUG 18384 --- [SpringApplicationShutdownHook] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@50b0bc4c, started on Fri Jun 23 00:57:59 GMT-05:00 2023
+2023-06-23 01:06:38.243  INFO 8960 --- [main] c.r.service.RemainderControllerTest      : Starting RemainderControllerTest using Java 11.0.7 on LAPTOP-A4128DS9 with PID 8960 (started by alexa in C:\RepoGit\codeChallenges\inclusionCloud\remainder-service-app)
+2023-06-23 01:06:38.245  INFO 8960 --- [main] c.r.service.RemainderControllerTest      : No active profile set, falling back to 1 default profile: "default"
+2023-06-23 01:06:38.283 DEBUG 8960 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@5b69fd74
+2023-06-23 01:06:39.276  INFO 8960 --- [main] com.remainder.service.filters.JwtFilter  : Session duration: 3600000 millis
+2023-06-23 01:06:39.277  INFO 8960 --- [main] com.remainder.service.filters.JwtFilter  : Expiration time: 720000 millis
+2023-06-23 01:06:39.277  INFO 8960 --- [main] com.remainder.service.filters.JwtFilter  : Session duration : 3600000 millis
+2023-06-23 01:06:39.277  INFO 8960 --- [main] com.remainder.service.filters.JwtFilter  : Session : 720000 expiration_time
+2023-06-23 01:06:39.593 DEBUG 8960 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-06-23 01:06:39.723 DEBUG 8960 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 5 mappings in 'requestMappingHandlerMapping'
+2023-06-23 01:06:39.774 DEBUG 8960 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-06-23 01:06:39.790 DEBUG 8960 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-06-23 01:06:39.978  INFO 8960 --- [main] c.r.service.RemainderControllerTest      : Started RemainderControllerTest in 2.076 seconds (JVM running for 2.96)
+2023-06-23 01:06:40.111  INFO 8960 --- [main] c.r.s.controller.RemainderController     : Calcule of Remainder Success
+2023-06-23 01:06:40.139  INFO 8960 --- [main] c.r.s.controller.RemainderController     : Calcule of Remainder Success
+2023-06-23 01:06:40.144  INFO 8960 --- [main] c.r.s.controller.RemainderController     : Calcule of Remainder Success
+2023-06-23 01:06:40.149  INFO 8960 --- [main] c.r.s.controller.RemainderController     : Calcule of Remainder Success
+2023-06-23 01:06:40.154  INFO 8960 --- [main] c.r.s.controller.RemainderController     : Calcule of Remainder Success
+2023-06-23 01:06:40.158  INFO 8960 --- [main] c.r.s.controller.RemainderController     : Calcule of Remainder Success
+2023-06-23 01:06:40.162  INFO 8960 --- [main] c.r.s.controller.RemainderController     : Calcule of Remainder Success
+2023-06-23 01:06:40.166  INFO 8960 --- [main] c.r.s.controller.RemainderController     : Calcule of Remainder Success
+2023-06-23 01:06:40.171  INFO 8960 --- [main] c.r.s.controller.RemainderController     : Calcule of Remainder Success
+2023-06-23 01:06:40.176  INFO 8960 --- [main] c.r.s.controller.RemainderController     : Calcule of Remainder Success
+2023-06-23 01:06:40.180  INFO 8960 --- [main] c.r.s.controller.RemainderController     : Calcule of Remainder Success
+2023-06-23 01:06:40.184  INFO 8960 --- [main] c.r.s.controller.RemainderController     : Calcule of Remainder Success
+2023-06-23 01:06:40.189  INFO 8960 --- [main] c.r.s.controller.RemainderController     : Calcule of Remainder Success
+2023-06-23 01:06:40.194  INFO 8960 --- [main] c.r.s.controller.RemainderController     : Calcule of Remainder Success
+2023-06-23 01:06:40.208 DEBUG 8960 --- [SpringApplicationShutdownHook] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@5b69fd74, started on Fri Jun 23 01:06:38 GMT-05:00 2023

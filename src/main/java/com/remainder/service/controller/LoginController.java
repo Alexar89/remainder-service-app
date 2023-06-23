@@ -44,7 +44,7 @@ public class LoginController {
 	private long session;
 
 	@PostMapping(value = "/ingresa",produces = MediaType.APPLICATION_JSON_VALUE)
-	public ResponseEntity<?> loginMinga(final HttpServletRequest request, @RequestHeader("login")  String sLogin, @RequestHeader("clave")  String sClave) {
+	public ResponseEntity<?> login(final HttpServletRequest request, @RequestHeader("login")  String sLogin, @RequestHeader("clave")  String sClave) {
 		try {
 			
 			String loginValidado = String.valueOf(request.getHeader("login"));
