@@ -121,11 +121,14 @@ Luego haz las peticions al GET Remainder y POST Remainder, aqui un ejemplo del G
 
 
 Para Ejecutar los Test puedes hacerlo como se muestra a continuación:
+
  Paso 1:
  
  ![imagen](https://github.com/Alexar89/remainder-service-app/assets/11586423/6441c527-018a-46b6-99a5-eb307d9a22ea)
 
-Paso 2: Observar la ejecución correcta de los test:
+Paso 2: 
+
+Observar la ejecución correcta de los test:
 
 ![imagen](https://github.com/Alexar89/remainder-service-app/assets/11586423/2576a4e7-5a3f-4ad0-8b43-694fe6a1f62c)
 
