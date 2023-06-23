@@ -16,24 +16,23 @@ Finalmente si no se cumple K1 o K2.
 
 **Los casos de entrada son:
 
-7 5 12345
-5 0 4
-10 5 15
-17 8 54321
-499999993 9 1000000000
-10 5 187
+7 5 12345,
+5 0 4,
+10 5 15,
+17 8 54321,
+499999993 9 1000000000,
+10 5 187,
 2 0 999999999
 
 **Su salida:
 
-12339
-0
-15
-54306
-999999995
-185
-999999998
-
+12339,
+0,
+15,
+54306,
+999999995,
+185,
+999999998,
 
 Un mayor detalle del problema se encuentar en: https://codeforces.com/problemset/problem/1374/A
 
