@@ -69,7 +69,7 @@ El proyecto deberia verse asi:
 ## 2. Ejecutar como aplicación de Spring Boot
 
 - En la vista "Project Explorer" de Eclipse, busca el proyecto "remainder-service-app".
-- Haz clic derecho en el proyecto y ve a "Run As" -> "Spring Boot App".
+- Haz clic derecho en el proyecto sobre la clase principal "RemainderServiceApplication.java" y ve a "Run As" -> "Spring Boot App".
   
   ![imagen](https://github.com/Alexar89/remainder-service-app/assets/11586423/ac4d0ed4-834a-4764-9171-d7c703eecaaf)
 
