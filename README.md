@@ -43,9 +43,12 @@ Un mayor detalle del problema se encuentar en: https://codeforces.com/problemset
 
 # Pasos para ejecutar el proyecto "remainder-service-app" en Eclipse IDE o en Spring Tools STS
 
-Clona el proyecto con git clone a una carpeta local en tu equipo.
+Clona o descarga el proyecto desde github. Con git clone puedes copiarlo a una carpeta local en tu equipo.
+
 ** Comando para clonar desde git: git clone https://github.com/Alexar89/remainder-service-app
+
 Deberia generarse esta estructura de archivos:
+
 ![imagen](https://github.com/Alexar89/remainder-service-app/assets/11586423/a951d26b-a17b-4ec7-8e70-e91dab9502ff)
 
 ## 1. Importar el proyecto Maven
