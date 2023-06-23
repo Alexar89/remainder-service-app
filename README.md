@@ -1,3 +1,42 @@
+
+# Descripción de Remainder Service App
+
+Esta aplicación se ha construido con Java Versión 11 y Java Spring Framework 2.7.x. Se trata de un servicio API REST que recibe peticiones GET y POST. Tiene un Endpoint de login que se usa para autenticar al usuario antes de usar los demás endpoints del API mediante un Token JWT, el usuario y clave puede ser cualquiera ya que para efectos de simplificar la ejcución local se ha definido que se puede recibir cualquier usuario y clave sin necesidad de conectarse a una base de datos.
+
+Los endpoints reciben tres valores: x, y , n y ejecutan una logica interna para retornal un valor k entero tal que k esta en el rango de [0,n] y k Modulo x = y.
+
+La complejidad del algorithmo se estima en O(1) ya que se usa el enfoque de naive bayes donde se considera los siguiente:
+
+/*  Posibles valores de K * /
+Calculamos K1 como K = N – N % X + Y
+Calculamos K2 como K = N – N%X + Y – X.
+Si K1 esta dentro del rango [0, N], retorna K1.
+En otro caso, si K2 Esta en el rango de [0, N], retorna K2.
+Finalmente si no se cumple K1 o K2.
+
+**Los casos de entrada son:
+
+7 5 12345
+5 0 4
+10 5 15
+17 8 54321
+499999993 9 1000000000
+10 5 187
+2 0 999999999
+
+**Su salida:
+
+12339
+0
+15
+54306
+999999995
+185
+999999998
+
+
+Un mayor detalle del problema se encuentar en: https://codeforces.com/problemset/problem/1374/A
+
 # Pasos para ejecutar el proyecto "remainder-service-app" en Eclipse IDE o en Spring Tools STS
 
 Clona el proyecto con git clone a una carpeta local en tu equipo.
