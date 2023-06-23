@@ -3,7 +3,12 @@
 
 Esta aplicación se ha construido con Java Versión 11 y Java Spring Framework 2.7.x. Se trata de un servicio REST que recibe peticiones GET y POST en una arquitectura de capas, sin embargo puede evolucionar para ser incluido como un microservicio, se usa esta arquitectura por simplicidad del ejercicio. Se tiene un Endpoint de /login/ingresa que se usa para autenticar al usuario antes de usar los demás endpoints del API mediante un Token JWT y un filtro JWT que mapea todas las peticiones de los endpoints para validar que se tiene un token autorizado. El usuario y clave puede ser cualquiera ya que para efectos de simplificar la ejcución local se ha definido que se puede recibir cualquier usuario y clave sin necesidad de conectarse a una base de datos, en este caso se omite la capa de DTOs ya que no se require persistencia en base de datos.
 
-Los endpoints reciben tres valores: x, y , n y ejecutan una logica interna para retornar un valor k entero tal que k esta en el rango de [0,n] y k Modulo x = y.
+Los endpoints reciben tres valores: x, y , n y ejecutan una logica interna para retornar un valor k entero tal que k esta en el rango de [0,n] y k Modulo x = y. Se puede consultar la documentación del API en:
+
+***http://localhost:8089/swagger-ui/index.html
+
+![imagen](https://github.com/Alexar89/remainder-service-app/assets/11586423/5f3ee8d0-d260-469f-9311-53e25a06606e)
+
 
 La complejidad del algorithmo se estima en O(1) ya que se usa el enfoque de Naive(https://cs.stackexchange.com/questions/33914/what-is-a-naive-method) donde se considera los siguiente:
 
