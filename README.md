@@ -5,7 +5,7 @@ Esta aplicación se ha construido con Java Versión 11 y Java Spring Framework 2
 
 Los endpoints reciben tres valores: x, y , n y ejecutan una logica interna para retornar un valor k entero tal que k esta en el rango de [0,n] y k Modulo x = y.
 
-La complejidad del algorithmo se estima en O(1) ya que se usa el enfoque de naive bayes donde se considera los siguiente:
+La complejidad del algorithmo se estima en O(1) ya que se usa el enfoque de Naive(https://cs.stackexchange.com/questions/33914/what-is-a-naive-method) donde se considera los siguiente:
 
 /*  Posibles valores de K * /
 Calculamos K1 como K = N – N % X + Y
