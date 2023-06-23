@@ -15,6 +15,8 @@ En otro caso, si K2 Esta en el rango de [0, N], retorna K2.
 
 **Los casos de entrada son:
 
+<table>
+<td>
 7 5 12345,
 5 0 4,
 10 5 15,
@@ -22,9 +24,12 @@ En otro caso, si K2 Esta en el rango de [0, N], retorna K2.
 499999993 9 1000000000,
 10 5 187,
 2 0 999999999
+</td>
 
+<td>
 **Su salida:
-
+</td>
+<td>
 12339,
 0,
 15,
@@ -32,7 +37,8 @@ En otro caso, si K2 Esta en el rango de [0, N], retorna K2.
 999999995,
 185,
 999999998,
-
+</td>
+</table>
 Un mayor detalle del problema se encuentar en: https://codeforces.com/problemset/problem/1374/A
 
 # Pasos para ejecutar el proyecto "remainder-service-app" en Eclipse IDE o en Spring Tools STS
