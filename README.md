@@ -37,7 +37,7 @@ El proyecto deberia verse asi:
 
 El API "RemainderAPI_v1" es la interfaz para interactuar con la aplicación "remainder-service-app". A continuación, se muestra cómo puedes utilizarlo:
 
-- Abre una herramienta de prueba de API, como Postman e importa el Collection JSON que esta en el proyecto: remainder-service-app/RemainderAPI_v1.postman_collection.json.
+Abre una herramienta de prueba de API, como Postman e importa el Collection JSON que esta en el proyecto: remainder-service-app/RemainderAPI_v1.postman_collection.json.
 
 ![imagen](https://github.com/Alexar89/remainder-service-app/assets/11586423/dc08c875-6591-4b6e-b826-8123ba4a8324)
 
@@ -48,7 +48,7 @@ Despues del import debes ver el collection como sigue:
 
 ** Realiza una solicitud HTTP a la URL base del API.
 
-Para realizar una solicitud primero debes usar el Endpoint de Loging para obtener un Token.
+Para realizar una solicitud primero debes usar el Endpoint de Login para obtener un Token.
 	 `http://localhost:8089/login/ingresa`.
   
 ![imagen](https://github.com/Alexar89/remainder-service-app/assets/11586423/214a05ff-0b4c-4b65-bcb3-d350edec7624)
@@ -72,6 +72,16 @@ Luego haz las peticions al GET Remainder y POST Remainder usando los parametros 
 **Ejemplo POST:
 
 ![imagen](https://github.com/Alexar89/remainder-service-app/assets/11586423/ddf8bc81-2449-4d7c-b942-b3a7015630a8)
+
+
+Para Ejecutar los Test puedes hacerlo como se muestra a continuación:
+ Paso 1:
+ 
+ ![imagen](https://github.com/Alexar89/remainder-service-app/assets/11586423/6441c527-018a-46b6-99a5-eb307d9a22ea)
+
+Paso 2: Observar la ejecución correcta de los test:
+
+![imagen](https://github.com/Alexar89/remainder-service-app/assets/11586423/2576a4e7-5a3f-4ad0-8b43-694fe6a1f62c)
 
 
 Recuerda que mientras la aplicación de Spring Boot esté en ejecución, podrás realizar solicitudes al API y probar su funcionalidad.
