@@ -1,0 +1,167 @@
+{
+	"info": {
+		"_postman_id": "3399a7ac-33cc-4b91-a7d1-47cf4795f86b",
+		"name": "RemainderAPI_v1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "7764234"
+	},
+	"item": [
+		{
+			"name": "Login",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "login",
+						"value": "user",
+						"type": "text"
+					},
+					{
+						"key": "clave",
+						"value": "clave",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost:8089/login/ingresa/",
+					"host": [
+						"localhost"
+					],
+					"port": "8089",
+					"path": [
+						"login",
+						"ingresa",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET_Remainder",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyNDQ0IiwiYWN0aXZvIjoiU2kiLCJEZXRhbGxlIjoiQXV0b3JpemFkbyIsIm1lbnVzIjoiTGlzdGEgZGUgb3BjaW9uZXMiLCJpYXQiOjE2ODc0ODk1NDIsImV4cCI6MTY4NzQ5MzE0Mn0.b9B9h3-Cqalo97F2HxG8SPsA8lDGtbrrz8oCFHQDhbI",
+						"type": "text"
+					},
+					{
+						"key": "",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8089/api/remainder/solveremainderget?xValue=2&yValue=0&nValue=999999999",
+					"host": [
+						"localhost"
+					],
+					"port": "8089",
+					"path": [
+						"api",
+						"remainder",
+						"solveremainderget"
+					],
+					"query": [
+						{
+							"key": "xValue",
+							"value": "2"
+						},
+						{
+							"key": "yValue",
+							"value": "0"
+						},
+						{
+							"key": "nValue",
+							"value": "999999999"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST_Remainder",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyNDQ0IiwiYWN0aXZvIjoiU2kiLCJEZXRhbGxlIjoiQXV0b3JpemFkbyIsIm1lbnVzIjoiTGlzdGEgZGUgb3BjaW9uZXMiLCJpYXQiOjE2ODc0OTA0MjksImV4cCI6MTY4NzQ5NDAyOX0._jTt8PMzQW786Delx9G7vWAfL8IqHq5AFE4FX1nncrQ",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"x\": 5,\r\n    \"y\": 7,\r\n    \"n\": 12345\r\n}\r\n\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8089/api/remainder/solveremainderpost?Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiYWN0aXZvIjoiU2kiLCJEZXRhbGxlIjoiQXV0b3JpemFkbyIsIm1lbnVzIjoiTGlzdGEgZGUgb3BjaW9uZXMiLCJpYXQiOjE2ODczODQxNTAsImV4cCI6MTY4NzM4Nzc1MH0.crfp6mwClvmJMA4Q065M9PbK6jFN9s50fvxT83N_ERY",
+					"host": [
+						"localhost"
+					],
+					"port": "8089",
+					"path": [
+						"api",
+						"remainder",
+						"solveremainderpost"
+					],
+					"query": [
+						{
+							"key": "Authorization",
+							"value": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiYWN0aXZvIjoiU2kiLCJEZXRhbGxlIjoiQXV0b3JpemFkbyIsIm1lbnVzIjoiTGlzdGEgZGUgb3BjaW9uZXMiLCJpYXQiOjE2ODczODQxNTAsImV4cCI6MTY4NzM4Nzc1MH0.crfp6mwClvmJMA4Q065M9PbK6jFN9s50fvxT83N_ERY"
+						},
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						},
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						},
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
