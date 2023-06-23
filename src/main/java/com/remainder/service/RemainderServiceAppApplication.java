@@ -14,10 +14,15 @@ import org.springframework.context.MessageSource;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.support.ResourceBundleMessageSource;
+import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 
 import com.remainder.service.filters.JwtFilter;
 
+import springfox.documentation.oas.annotations.EnableOpenApi;
+import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
+@EnableWebMvc
+@EnableOpenApi
 @ComponentScan(basePackages = "com.remainder.service")
 @SpringBootApplication
 public class RemainderServiceAppApplication {
