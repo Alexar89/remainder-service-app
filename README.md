@@ -1,14 +1,17 @@
 
 # Descripción de Remainder Service App
 
-Esta aplicación se ha construido con Java Versión 11 y Java Spring Framework 2.7.x. Se trata de un servicio REST que recibe peticiones GET y POST en una arquitectura de capas, sin embargo puede evolucionar para ser incluido como un microservicio, se usa esta arquitectura por simplicidad del ejercicio. Se tiene un Endpoint de /login/ingresa que se usa para autenticar al usuario antes de usar los demás endpoints del API mediante un Token JWT y un filtro JWT que mapea todas las peticiones de los endpoints para validar que se tiene un token autorizado. El usuario y clave puede ser cualquiera ya que para efectos de simplificar la ejecución local se ha definido que se puede recibir cualquier usuario y clave sin necesidad de conectarse a una base de datos, en este caso se omite la capa de DTOs ya que no se require persistencia en base de datos.
+Esta aplicación se ha construido con **Java Versión 11** y **Java Spring Framework 2.7.x**. Se trata de un servicio del tipo **API REST** que recibe peticiones GET y POST, Este servicio puede evolucionar para ser incluido como un microservicio en una aplicación más robusta. En cuanto al funcionamiento de la aplicación, se tiene un Endpoint denominado **/login/ingresa** que se usa para autenticar al usuario antes de usar los demás endpoints del API mediante un Token JWT y un filtro JWT (**JwtFilter.java**) agregado como un Bean del contexto de la aplicación en la clase de configuration: **RemainderServiceAppApplication.java**, con esto se mapean todas las peticiones de los endpoints para validar que se tiene un token autorizado. 
 
-Los endpoints reciben tres valores: x, y , n no Nulos, cuya validación de campos de entrada se hace desde el controlador con las anotaciones @NonNull y @Validated. Se ejecuta una logica interna para retornar un valor k entero tal que k esta en el rango de [0,n] y k Modulo x = y. Se puede consultar la documentación generada con Swagger del API una vez ejecutas el proyecto localmente usando el siguiente link:
+El manejo de excepciones se realiza con una clase global, llamada **GlobalExceptionHandlerRemainder.java** y se usa la Utilidad **CodigosEstadoUtils.java** para generar objetos de respuesta especificos a cada error. El usuario y clave puede ser cualquiera ya que para efectos de simplificar la ejecución local se ha definido que se puede recibir cualquier usuario y clave sin necesidad de conectarse a una base de datos, en este caso se omite la capa de DTOs ya que no se require persistencia en base de datos.
+
+Los endpoints reciben tres valores: x, y , n, deben ser no Nulos, la validación y sanitización de las entradas, se hace desde el controlador con las anotaciones **@NonNull y @Validated**, se ha creado una entidad **RemainderInput.java** para mapear el requestBody del Post, no se require DTO por el momento ya que no se persiste en base de datos. **Se ejecuta una logica interna para retornar un valor k entero tal que k esta en el rango de [0,n] y k Modulo x = y**. Se puede consultar la documentación generada con **Swagger** del API una vez ejecutas el proyecto localmente usando el siguiente link:
 
 ***http://localhost:8089/swagger-ui/index.html
 
 ![imagen](https://github.com/Alexar89/remainder-service-app/assets/11586423/5f3ee8d0-d260-469f-9311-53e25a06606e)
 
+Los test unitarios han sido agregados en la clase: **RemainderControllerTest.java**, se usa** Mockito y Junit5** para los test.
 
 La complejidad del algorithmo se estima en O(1) ya que se usa el enfoque de Naive(https://cs.stackexchange.com/questions/33914/what-is-a-naive-method) donde se considera los siguiente:
 
