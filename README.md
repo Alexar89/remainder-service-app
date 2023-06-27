@@ -3,7 +3,7 @@
 
 Esta aplicación se ha construido con Java Versión 11 y Java Spring Framework 2.7.x. Se trata de un servicio REST que recibe peticiones GET y POST en una arquitectura de capas, sin embargo puede evolucionar para ser incluido como un microservicio, se usa esta arquitectura por simplicidad del ejercicio. Se tiene un Endpoint de /login/ingresa que se usa para autenticar al usuario antes de usar los demás endpoints del API mediante un Token JWT y un filtro JWT que mapea todas las peticiones de los endpoints para validar que se tiene un token autorizado. El usuario y clave puede ser cualquiera ya que para efectos de simplificar la ejecución local se ha definido que se puede recibir cualquier usuario y clave sin necesidad de conectarse a una base de datos, en este caso se omite la capa de DTOs ya que no se require persistencia en base de datos.
 
-Los endpoints reciben tres valores: x, y , n y ejecutan una logica interna para retornar un valor k entero tal que k esta en el rango de [0,n] y k Modulo x = y. Se puede consultar la documentación del API una vez ejecutas el proyecto localmente usando el siguiente link:
+Los endpoints reciben tres valores: x, y , n no Nulos, cuya validación de campos de entrada se hace desde el controlador con las anotaciones @NonNull y @Validated. Se ejecuta una logica interna para retornar un valor k entero tal que k esta en el rango de [0,n] y k Modulo x = y. Se puede consultar la documentación generada con Swagger del API una vez ejecutas el proyecto localmente usando el siguiente link:
 
 ***http://localhost:8089/swagger-ui/index.html
 
