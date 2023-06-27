@@ -12,6 +12,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.lang.NonNull;
+import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
 import com.remainder.service.entity.RemainderInput;
@@ -23,7 +24,7 @@ import com.remainder.service.utils.ControllerUtils;
 @RequestMapping("/api/remainder")
 public class RemainderController {
 	
-	private static final String REMAINDER_SUCCES = "Calcule of Remainder Success";
+	private static final String REMAINDER_SUCCESS = "Calcule of Remainder Success";
 	private static final Logger log = LoggerFactory.getLogger(RemainderController.class);
 	
 	/*  Posibles valores de K 
@@ -34,15 +35,17 @@ public class RemainderController {
 	 * Finalmente si no se cumple K1 o K2, retorna -1
 	 */
     @PostMapping(value="/solveremainderpost",produces=MediaType.APPLICATION_JSON_VALUE)
-    public ResponseEntity<Map<String,Object>>  solveRemainderPost(final HttpServletRequest request, @RequestBody @NonNull RemainderInput testCase) {
+    public ResponseEntity<Map<String,Object>>  solveRemainderPost(final HttpServletRequest request, @RequestBody @Validated @NonNull RemainderInput testCase) {
     	
     	try {
     		
     		Map<String,Object> response = new HashMap<String,Object>();
     		ArrayList<Integer> results = new ArrayList<>();
+    		//Sanitizar Valores
 	    	Integer xValue = Integer.valueOf(testCase.getX());
 			Integer yValue = Integer.valueOf(testCase.getY());
 			Integer nValue = Integer.valueOf(testCase.getN());
+			// Posibles valores de resultado
 			Integer k1;
 			Integer k2;
 		
@@ -59,17 +62,17 @@ public class RemainderController {
     				
     		}
 				
-			log.info(REMAINDER_SUCCES);
+			log.info(REMAINDER_SUCCESS);
 			
 			response.put("Remainder Result",results);
-				
+			
+			//Verificar si se ha actualizado el token en la solicitud
 			ControllerUtils.build().secured(response,request);
 				
 			return new ResponseEntity<>(response, HttpStatus.OK);
  
-		} catch (Exception e) {
-			
-			throw e;
+		} catch (Exception error) {
+			throw error; // manejo con clase GlobalExceptionHandlerRemainder
 		}
     }
 
@@ -79,11 +82,17 @@ public class RemainderController {
     		
     		Map<String,Object> response = new HashMap<String,Object>();
     		ArrayList<Integer> results = new ArrayList<>();
+    		
+    		//Sanitizar Valores
+	    	Integer xValueValid = Integer.valueOf(xValue);
+			Integer yValueValid = Integer.valueOf(yValue);
+			Integer nValueValid = Integer.valueOf(nValue);
+    		
+    		// Posibles valores de resultado
 			Integer k1;
 			Integer k2;
-			
-    		k1 = nValue - nValue % xValue + yValue;
-    		k2 = nValue - nValue % xValue + (yValue- xValue);
+    		k1 = nValueValid - nValueValid % xValueValid + yValueValid;
+    		k2 = nValueValid - nValueValid % xValueValid + (yValueValid- xValueValid);
     			
     		if(k1 <= nValue) {
     				
@@ -95,18 +104,20 @@ public class RemainderController {
     				
     		}
 				
-			log.info(REMAINDER_SUCCES);
+			log.info(REMAINDER_SUCCESS);
 			
 			response.put("Remainder Result",results);
-				
+			
+			// Verificar si se ha actualizado el token en la solicitud
 			ControllerUtils.build().secured(response,request);
 				
 			return new ResponseEntity<>(response, HttpStatus.OK);
 			
 
-		} catch (Exception e) {
-			throw e;
+    	} catch (Exception error) {
+			throw error; // manejo con clase GlobalExceptionHandlerRemainder
 		}
     	
     }
+    
 }

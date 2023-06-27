@@ -14,6 +14,7 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
+import org.springframework.lang.NonNull;
 import org.springframework.web.bind.annotation.*;
 
 import com.remainder.service.utils.CodigosEstadoUtils;
@@ -44,9 +45,9 @@ public class LoginController {
 	private long session;
 
 	@PostMapping(value = "/ingresa",produces = MediaType.APPLICATION_JSON_VALUE)
-	public ResponseEntity<?> login(final HttpServletRequest request, @RequestHeader("login")  String sLogin, @RequestHeader("clave")  String sClave) {
+	public ResponseEntity<?> login(final HttpServletRequest request, @RequestHeader("login") @NonNull String sLogin, @RequestHeader("clave") @NonNull String sClave) {
 		try {
-			
+			// Sanitizar clave y login
 			String loginValidado = String.valueOf(request.getHeader("login"));
 			String claveValidada = String.valueOf(request.getHeader("clave"));
 			// emula la confirmación de que el usuario existe en base de datos

@@ -11,6 +11,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.MethodArgumentNotValidException;
 
 import javax.servlet.http.HttpServletRequest;
 
@@ -46,7 +47,7 @@ class RemainderControllerTest {
 
     @Test
     @DisplayName("Test case for POST: 5 mod 0 with n=4")
-    void solveRemainderPostTest2() {
+    void solveRemainderPostTest2()  {
         RemainderInput testCase = new RemainderInput(5, 0, 4);
         executeRemainderPostTest(testCase, 0);
     }
@@ -124,8 +125,29 @@ class RemainderControllerTest {
 
     @Test
     @DisplayName("Test case for GET: 2 mod 0 with n=999999999")
-    void solveRemainderGetTest7() {
+    void solveRemainderGetTest7() throws MethodArgumentNotValidException {
         executeRemainderGetTest(2, 0, 999999999, 999999998);
+    }
+
+
+    @Test
+    @DisplayName("Test case for POST: Unhandled Exception")
+    void solveRemainderPostUnhandledExceptionTest() {
+    	
+        RemainderInput testCase = new RemainderInput(0, null, 1);
+        
+        Assertions.assertThrows(Exception.class, () -> {
+            remainderController.solveRemainderPost(request, testCase);
+        });
+    }
+
+    @Test
+    @DisplayName("Test case for GET: Unhandled Exception")
+    void solveRemainderGetUnhandledExceptionTest() {
+    	
+        Assertions.assertThrows(Exception.class, () -> {
+            remainderController.solveRemainderGet(null, null, null, 1);
+        });
     }
 
     private void executeRemainderPostTest(RemainderInput testCase, int expectedRemainder) {

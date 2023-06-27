@@ -1,8 +1,13 @@
 package com.remainder.service.entity;
 
+import org.springframework.lang.NonNull;
+
 public class RemainderInput {
+	@NonNull
     private Integer x;
+	@NonNull
     private Integer y;
+	@NonNull
     private Integer n;
 
     // Constructor por defecto
